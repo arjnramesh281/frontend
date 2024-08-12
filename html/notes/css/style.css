@@ -1,0 +1,48 @@
+*{
+    margin-top: auto;
+}
+
+
+nav{
+    background-color: rgb(166, 166, 249);
+    padding: 30px;
+
+}
+a{
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+input{
+   padding: 15px;
+   border-style: none;
+   margin-left: 85% ;
+
+   
+}
+
+
+#tt{
+    color: rgb(9, 89, 237);
+    background-color: aliceblue;
+    text-align: center;
+}
+h2{
+    color:rgb(0, 0, 0);
+    font-family: "Teko", sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 40px;
+}
+.ax{
+    margin:auto;
+    font-size: 30px;
+    color: rgb(255, 254, 254);
+    background-color: rgb(64, 99, 224);
+    padding: 7px 14px;
+    border: none;
+    border-radius: 10px;
+    
+}   
