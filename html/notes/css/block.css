@@ -1,0 +1,11 @@
+span{
+    display: block;
+    margin: 12px 0;
+    /* display: none; */
+    /* visibility: hidden; */
+
+}
+li{
+    display: inline;
+    margin: 0 20px;
+}

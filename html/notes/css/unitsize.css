@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.asx{
+    background-color: rgb(238, 138, 213);
+    width: 100%;
+    height: 100vh;
+    
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+button{
+    padding: 25PX 60px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    border-radius: 12px;
+    
+}
+h1{
+    padding: 29PX;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.box{
+    background-color: rgb(225, 178, 178);
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border-radius: 18px;
+}
