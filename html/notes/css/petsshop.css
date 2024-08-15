@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    height: 2500px;
+    padding: 20px;
+    background-color: bisque;
+    position: relative;
+}
+
+/* nav bar */
+.nav{
+    background-color: gray;
+    padding: 40px;
+    font-size: 30px;
+    /* position: sticky; */
+    top: 0%;
+    display: flex;
+    
+}
+
+.home{
+    text-decoration: none;
+    font-family: "Bona Nova SC", serif;
+    color: rgb(255, 255, 255);
+    display: inline;
+    padding-right: 60px;
+}
+ 
+.contact{
+    text-decoration: none;
+    font-family: "Bona Nova SC", serif;
+    color: rgb(255, 255, 255);
+    display: inline;
+}
+
+.sign{
+    text-decoration: none;
+    font-family: "Bona Nova SC", serif;
+    color: rgb(255, 255, 255);
+    display: inline;
+    margin-left: auto;
+    
+}
+
+/* banner */
+img {
+    width: 90%;
+    height: auto; /* Ensure the aspect ratio is maintained */
+    object-fit: cover;
+    padding: 40px;
+    position: relative; /* Change this from absolute to relative */
+    display: block; /* Ensure it stays within its container */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+.btn>button{
+    padding: 20px 40px; 
+    font-size: 24px; 
+    font-family: "Bona Nova SC", serif;
+    background-color: bisque; 
+    color: black;
+    border: 2px solid #D3D3D3; 
+    position: absolute;
+    top: 22%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px; 
+    }
+
+.btn:hover{
+    background-color: #886161;  
+}
+
+/* cards */
+.parent{ 
+    display: flex; 
+    justify-content: center;
+    max-width: 100%;  
+    min-height: 100vh;  
+    align-items: center;  
+    flex-wrap: wrap;
+    background-color: rgb(186, 179, 179);
+    margin-top: 10%;
+    border-radius: 20px;
+    
+    }
+
+    .parent>div{ 
+    width: 300px; 
+    height: 450px; 
+    background-color: rgb(72, 75, 76);
+    border: 1px solid ☐ black;
+    margin: 20px;  
+    border-radius: 20px;
+    }
+    .parent > div img {
+        width: 60%;            /* Make the image take up the full width of its container */
+        height: 60%;           /* Maintain the aspect ratio */
+        object-fit: cover;      /* Ensure the image covers the container without distortion */
+        border-radius: 5px;     /* Add a bit of rounding to match the container's aesthetic */
+    }
+    
+
+    .btn2 {
+        text-align: center;
+        padding: 1px;
+        color: white; 
+    }
+
+    .btn2 button {
+        padding: 10px 20px;
+        font-size: 1em;
+        background-color: #FF6347; 
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .btn2 h2{
+        font-family: "Lato", sans-serif;
+    }
+
+    .btn2 button:hover {
+        background-color: #FF4500; 
+    }
+
+    p{
+        margin-top: 1px;
+    }
