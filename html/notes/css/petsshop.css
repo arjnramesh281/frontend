@@ -99,8 +99,8 @@ img {
     border-radius: 20px;
     }
     .parent > div img {
-        width: 60%;            /* Make the image take up the full width of its container */
-        height: 60%;           /* Maintain the aspect ratio */
+        width: 200px;            /* Make the image take up the full width of its container */
+        height: 200px;           /* Maintain the aspect ratio */
         object-fit: cover;      /* Ensure the image covers the container without distortion */
         border-radius: 5px;     /* Add a bit of rounding to match the container's aesthetic */
     }

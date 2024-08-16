@@ -1,0 +1,13 @@
+.parent{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.parent::-webkit-scrollbar{
+    display: none;
+}
+img{
+    width: 400px;
+    height: 250px;
+    margin: 1px;
+}
