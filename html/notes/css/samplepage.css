@@ -65,4 +65,5 @@ input{
     background-color: rgb(72, 75, 76);
     border: 1px solid ☐ black;
     margin-top: 20px;
+    display: flex;
 }
