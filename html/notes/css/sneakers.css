@@ -6,7 +6,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 140px 0px 140px;
+    margin: 10px 140px 0px 140px;
 }
 
 .left{
@@ -39,7 +39,7 @@
 
 }
 hr{
-    margin: 30px 140px 0px 140px;
+    margin: 10px 140px 0px 140px;
 }
 
 /* ___________________________________________________ */
@@ -47,7 +47,7 @@ hr{
 .main{
     display: flex;
     min-height: 100vh;
-    margin: 30px 140px 40px 140px;
+    margin: 10px 140px 40px 140px;
 }
 
 .first{
@@ -71,13 +71,13 @@ hr{
     border-radius: 10px;
     margin: 10px 5px 10px 30px;
     border: 2px solid transparent; /* Start with a transparent border */
-    transition: transform 0.3s ease, opacity 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+    transition: transform 0.3s ease, opacity 0.3s ease, border-color 0.3s ease; /* Smooth transition  */
 }
 
 .four img:hover {
     border-color: black; /* Change border color on hover */
-    opacity: 0.8; /* Slightly reduce opacity on hover */
-    transform: scale(1.05); /* Slightly scale up the image on hover */
+    opacity: 0.8;/* Slightly reduce opacity on hover  */
+    transform: scale(1.05); /* Slightly scale up the image on hover  */
 }
 
 .second{
