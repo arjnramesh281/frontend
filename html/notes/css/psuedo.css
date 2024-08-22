@@ -1,0 +1,47 @@
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: maroon;
+    border-radius: 20px;
+    color: bisque;
+    padding: 15px 50px;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+.btn:hover{
+    background-color: bisque;
+    color: maroon;
+}
+.btn:active{
+    background: black;
+    color: bisque;
+}
+
+input{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    padding: 20px 50px;
+    transition: 0.5s;
+}
+
+input:focus{
+    background-color: bisque;
+}
+
+ul{
+    font-size: 40px;
+}
+li:first-child{
+    color: blue;
+}
+
+li:nth-child(4){
+    color: rgb(138, 43, 226);
+}
+
+li:last-child{
+    color: yellowgreen;
+}
