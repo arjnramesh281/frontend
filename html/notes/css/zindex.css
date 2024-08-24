@@ -31,39 +31,3 @@
 }
 
 
-/* ______________________________________________________HAHAHA__________________________________________ */
-.sectionvirat{
-    margin-top: 50px;
-    display: flex;
-    height: 600px;
-    text-align: center;
-  }
-  .sectionvirat1 {
-    width: 33.33%;
-    background-color: rgb(255, 255, 255);
-    font-family: "Roboto Condensed", sans-serif;
-  }
-  .sectionvirat2 {
-    width: 33.33%;
-    background-color: rgb(255, 255, 255);
-    font-family: "Roboto Condensed", sans-serif;
-  }
-  .sectionvirat3 {
-    width: 33.33%;
-    background-color: rgb(255, 255, 255);
-    font-family: "Roboto Condensed", sans-serif;
-  }
-  .sectionviratimg {
-    width: 80%;
-    height: 90%;
-    object-fit: cover;
-  }
-  .sectionviratbut {
-    color: white;
-    background-color: black;
-    font-family: "Roboto Condensed", sans-serif;
-    width: 100px;
-    height: 30px;
-    margin: 10px;
-    cursor: pointer;
-  }
