@@ -1,3 +1,9 @@
+
+body {
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -22,6 +28,7 @@
   position: sticky;
   top: 0;
   justify-content: space-between;
+  z-index: 1000;
 }
 
 .left {
@@ -172,16 +179,16 @@ span {
 }
 /* __________________________________________section3______________________________ */
 
-.section3{
+.section3 {
   margin-top: 180px;
   display: flex;
   height: 300px;
   text-align: center;
-  margin-bottom: 180px;
+  margin-bottom: 300px;
   word-spacing: 3px;
 }
 .section31 {
-  width: 33.33% ;
+  width: 33.33%;
   background-color: rgb(255, 255, 255);
   font-family: "Roboto Condensed", sans-serif;
   object-fit: cover;
@@ -200,6 +207,7 @@ span {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin-bottom: 150px;
 }
 .section3but {
   color: white;
@@ -216,7 +224,7 @@ span {
 .section4 {
   display: flex;
   height: 540px;
-  margin-top: 30px;
+  margin-top: 400px;
 }
 .sec41 {
   width: 60%;
@@ -247,54 +255,70 @@ span {
   height: 40px;
 }
 
-/* ____________________________________section 4_____________________ */
-.scroll {
-  margin-top: 40px;
-  display: flex;
-  overflow-y: hidden;
+/* ____________________________________section 5_____________________ */
+
+.container5 {
   width: 100%;
-  height: 100%;
+  height: 60vh;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 100vh);
+  overflow-y: hidden;
 }
 
-.scroll img {
-  margin: 20px;
-  width: 340px;
-  height: 340px;
+.container5 > div {
+  width: 22vw;
+  height: 60vh;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.scroll::-webkit-scrollbar {
+.container5 img {
+  object-fit: cover;
+  width: 22vw;
+  height: 50vh;
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container5::-webkit-scrollbar {
   width: 9px; /* Width of the scrollbar */
   height: 9px; /* Height of the scrollbar (for horizontal scrollbars) */
 }
 
 /* Customize the scrollbar track */
-.scroll::-webkit-scrollbar-track {
+.container5::-webkit-scrollbar-track {
   background-color: #f1f1f1; /* Background color of the scrollbar track */
   border-radius: 10px; /* Rounded corners for the track */
 }
 
 /* Customize the scrollbar thumb */
-.scroll::-webkit-scrollbar-thumb {
+.container5::-webkit-scrollbar-thumb {
   background-color: #000000; /* Color of the scrollbar thumb */
   border-radius: 10px; /* Rounded corners for the thumb */
   border: 2px solid #f1f1f1; /* Padding around the thumb */
 }
 
 /* Customize the scrollbar thumb when hovered */
-.scroll::-webkit-scrollbar-thumb:hover {
+.container5::-webkit-scrollbar-thumb:hover {
   background-color: #393838; /* Darker color on hover */
 }
 
 /* _________________________________________section6_____________________*/
 
-.section6{
+.section6 {
   margin-top: 50px;
   display: flex;
   height: 700px;
   gap: 20px;
   text-align: center;
   word-spacing: 3px;
-
 }
 .section61 {
   width: 50%;
@@ -320,7 +344,6 @@ span {
   margin: 10px;
   cursor: pointer;
 }
-
 
 /* _______________________________section one piece_______________________________ */
 .onepiece {
@@ -369,9 +392,101 @@ span {
   border-color: black;
 }
 
+/* _________________________________________________section z-index__________________________________________________ */
+
+.section5{
+  margin-top: 10px;
+  max-width: 100%;
+  height:20vh;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 700px;
+}
+.sec51{
+position: absolute;
+top: 350;
+margin-top: 250px;
+margin-left: 20PX;
+left:20;
+background-color: aqua;
+width:98vh;
+height:60vh;
+z-index: -1;
+}
+.sec52{
+position: absolute;
+top:40;
+left:700px;
+background-color:blue;
+width: 100vh;
+height: 95vh;
+z-index: -2;
+}
+
+.sec53{
+position: absolute;
+top:60;
+left: 0;
+z-index: -3;
+background-color: rgb(13, 13, 13);
+width:100%;
+height: 80vh;
+margin-top: 40px;
+}
+.sec5img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.sec5text1{
+margin-left: 20px;
+color: white;
+margin-top:40px;
+}
+.sec5text2{
+position: absolute;
+top: 60;
+margin-left: 20px;
+margin-top: 5px;
+left: 20;
+color: white;
+}
+.sec5but1{
+position: absolute;
+top:120;
+margin-top: 50px;
+margin-left: 20px;
+height: 50px;
+width:150px;
+left: 20;
+border: none;
+background-color: white;
+color: black;
+transition: 0.5s;
+}
+.sec5but2{
+position: absolute;
+top:120;
+margin-top: 50px;
+margin-left: 190px;
+height:50px;
+width:150px;
+border: none;
+background-color: white;
+color: black;
+transition: 0.5s;
+left: 200;
+}
+.sec5but2:hover{
+background-color: black;
+color:white;
+}
+.sec5but1:hover{
+background-color: black;
+color:white;
+}
 /* ______________________________________________________section virat__________________________________________ */
 
-.sectionvirat{
+.sectionvirat {
   margin-top: 50px;
   display: flex;
   height: 600px;
@@ -394,8 +509,8 @@ span {
   font-family: "Roboto Condensed", sans-serif;
 }
 .sectionviratimg {
-  width: 80%;
-  height: 90%;
+  width: 95%;
+  height: 100%;
   object-fit: cover;
 }
 .sectionviratbut {
@@ -406,4 +521,153 @@ span {
   height: 30px;
   margin: 10px;
   cursor: pointer;
+}
+
+/* ________________________________section____________________ */
+
+.kidshead{
+  text-align: center;
+  margin-top: 180px;
+}
+.container9{
+  width: 100%;
+  height: 45vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5,100vh);
+}
+
+.container9>div{
+  background-color: black;
+  width: 22vw;
+  height: 45vh;
+  margin-left: 20px;
+
+}
+.kidshead{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
+
+}
+
+.container9 h2,h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container9 img{
+  object-fit: cover;
+  width: 22vw;
+  height: 45vh;
+  position: relative;
+}
+
+.child91 h2,h3{
+  position: relative;
+  top: -20%;
+  right: -10%;
+  color: rgb(0, 0, 0);
+}
+.child92 h2,h3{
+  position: relative;
+  top: -20%;
+  right: -10%;
+  color: rgb(0, 0, 0);
+}
+.child93 h2,h3{
+  position: relative;
+  top: -20%;
+  right: -10%;
+  color: rgb(0, 0, 0);
+}
+.child94 h2,h3{
+  position: relative;
+  top: -20%;
+  right: -10%;
+  color: rgb(0, 0, 0);
+}
+
+
+/* ________________________________Footer Styles _______________________________*/
+.footer {
+  background-color: rgb(23, 23, 23);
+  color: #d6d6d6;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer-section .social-icons a {
+  margin-right: 10px;
+}
+
+.footer-section .social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
 }
