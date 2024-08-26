@@ -1,4 +1,6 @@
 .parent{
+    margin-top: 40px;
+    padding: 40px;
     display: flex;
     overflow-y: hidden;
 }
@@ -7,7 +9,19 @@
     display: none;
 }
 img{
+    border-radius: 10px;
     width: 400px;
     height: 250px;
-    margin: 1px;
+    margin: 10px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+
+img:hover{
+
+    transform: skew(20deg,20deg);
+    transform: scale(1,0.5);
+    /* transform: rotate(80deg); */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
