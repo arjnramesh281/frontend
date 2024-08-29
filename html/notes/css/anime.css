@@ -5,7 +5,7 @@
     background-color: rgb(12, 12, 12);
     position: relative  ;
     animation: example;
-    animation-duration: 1s;
+    animation-duration: 5s;
     /* animation-delay: 2s; */
     animation-iteration-count: infinite;
 }
@@ -33,7 +33,7 @@
     background-color: rgb(12, 12, 12);
     position: relative  ;   
     animation: example2;
-    animation-duration: 1s;
+    animation-duration: s;
     /* animation-delay: 2s; */
     animation-iteration-count: infinite;
 }
