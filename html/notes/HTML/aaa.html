@@ -17,14 +17,22 @@
             background-color: lightblue;
             position: absolute;
         }
+        .asd{
+            width: 100%;
+            height:40%;
+        }
 
         .box::before {
             content: "";
             position: absolute;
-            width: 200px; /* Width of the shaded area */
-            height: 100%;
+            width: 100%; /* Width of the shaded area */
+            height: 40%;
             background: rgb(2,0,36);
-            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,62,121,0.6083683473389356) 35%, rgba(0,212,255,1) 100%);            /* Fade from semi-transparent black to fully transparent */
+            background: rgb(0,0,0);
+            background: rgb(0,0,0);
+            background: linear-gradient(90deg, rgba(0,0,0,0.9080882352941176) 27%, rgba(0,0,0,0.375875350140056) 52%);        
+        
+        
         }
 
         .image-container {
@@ -41,7 +49,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="box"></div>
+        <div class="box">
+        <img class="asd" src="../bookmyshow/images/1724041441623_rflwsn1240x300.avif" alt="">
+
+        </div>
         <div class="image-container">
             <img src="../../images/anime girl 2.jpg" alt="Anime Girl">
         </div>
