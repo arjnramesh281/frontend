@@ -3,20 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coming Soon</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
-<body>
-    <div class="container w-100 p-0">
-        <div class="row">
-            <div class="col-lg-7 col-sm-12 bg-primary">
-                1
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+
+    <div class="container bg-white shadow-sm h-100">
+        <div class="row h-100">
+            
+            <!-- Left Section -->
+            <div class="col-md-7 d-flex flex-column justify-content-center p-5 position-relative h-100">
+                
+                <!-- Logo Section -->
+                <div class="position-absolute s-5" style="top: 100px;">
+                    <img src="./images/logo.svg" alt="Logo" class="img-fluid" style="max-width: 150px;">
+                </div>
+
+                <h1 class="display-4 mt-5">
+                    <strong><span class="text-danger">W E ' R E</span></strong> <br>
+                    <strong>C O M I N G</strong> <br>
+                    <strong>S O O N</strong>
+                </h1>
+                
+                <p class="mt-3 text-danger">
+                    Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+                </p>
+                
+                <form class="mt-4">
+                    <div class="input-group w-50">
+                        <input type="email" class="form-control rounded-pill px-4" placeholder="Email Address" aria-label="Email Address">
+                        <button class="btn btn-danger rounded-pill px-4" type="submit">&#10095;</button>
+                    </div>
+                </form>
+                
             </div>
-            <div class="col-lg-5 col-sm-12 bg-success">
-                <img class="w-100" src="./images/hero-desktop.jpg" alt="">
+            
+            <!-- Right Section -->
+            <div class="col-md-5 p-0">
+                <img src="./images/hero-desktop.jpg" alt="Coming Soon Image" class="w-100 vh-100 " >
             </div>
         </div>
     </div>
+
     <script src="../js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
