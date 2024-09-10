@@ -4,8 +4,9 @@
 
 .nav{
     background-color: rgb(46, 43, 43);
-    height: 35px;
+    min-height: 35px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -112,12 +113,13 @@
 /* nav2---------------------------------------------------------------------------------------- */
 
 .nav2{
-    height: 11vh;
+    min-height: 11vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    /* position: sticky; */
-    /* top: 0; */
+    position: sticky;
+    top: 0;
     z-index: 11;
     background-color: white;
 }
@@ -331,9 +333,11 @@
   margin: auto;
   margin-top: 50px;
   height: auto; 
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr); */
+  gap: 30px;
 }
 
 .avatar-container {
@@ -1013,6 +1017,7 @@ background: linear-gradient(90deg, rgba(0,0,0,0.695203081232493) 0%, rgba(0,0,0,
 
 .footer-wrapper {
   display: flex;
+
   justify-content: space-between;
   padding: 40px;
   font-family: "Roboto", system-ui;
@@ -1062,6 +1067,7 @@ background: linear-gradient(90deg, rgba(0,0,0,0.695203081232493) 0%, rgba(0,0,0,
 
 .f-right{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .f-right1 img{
@@ -1069,7 +1075,7 @@ background: linear-gradient(90deg, rgba(0,0,0,0.695203081232493) 0%, rgba(0,0,0,
 }
 
 .f-right1{
-  margin-left: 150px;
+  /* margin-left: 150px; */
   margin-top: 10px;
 }
 
